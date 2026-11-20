@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101014">
+  <meta name="description" content="Shabbona English — ingliz tilini bosqichma-bosqich o‘rganish platformasi.">
+  <title>Shabbona English — Learn with confidence</title>
+  <link rel="icon" href="assets/shabbona-logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <img src="assets/shabbona-logo.png" alt="Shabbona logo" class="brand-logo">
+        <div><strong>SHABBONA</strong><span>ENGLISH ACADEMY</span></div>
+      </div>
+      <div class="side-label">ASOSIY MENYU</div>
+      <nav class="nav">
+        <button class="nav-btn active" data-page="home"><span>⌂</span> Bosh sahifa</button>
+        <button class="nav-btn" data-page="vocabulary"><span>▤</span> So‘zlar</button>
+        <button class="nav-btn" data-page="grammar"><span>✎</span> Grammatika</button>
+        <button class="nav-btn" data-page="reading"><span>▧</span> Reading</button>
+        <button class="nav-btn" data-page="listening"><span>♫</span> Listening</button>
+        <button class="nav-btn" data-page="tests"><span>✓</span> Testlar</button>
+        <button class="nav-btn" data-page="progress"><span>▥</span> Natijalarim</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="mini-card"><div class="mini-star">✦</div><b>Har kuni oz-ozdan</b><p>Bugungi kichik qadam — ertangi katta natija.</p></div>
+        <div class="sidebar-foot">© 2026 SHABBONA</div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="mobile-menu" id="mobileMenu" aria-label="Menyuni ochish">☰</button>
+        <div class="crumb">SHABBONA <span>/</span> <b id="pageCrumb">Bosh sahifa</b></div>
+        <div class="top-right"><span class="level-pill" id="currentLevelPill">A2 · Boshlang‘ich</span><div class="avatar">S</div></div>
+      </header>
+      <div class="content" id="content">
+        <section class="hero">
+          <div class="hero-copy">
+            <div class="eyebrow"><span></span> YOUR ENGLISH JOURNEY STARTS HERE</div>
+            <h1>Ingliz tilini<br><em>ishonch bilan</em> o‘rganing.</h1>
+            <p>Har kuni yangi so‘zlar, tushunarli grammatika va qiziqarli mashqlar bilan maqsadingizga yaqinlashing.</p>
+            <button class="primary-btn" data-go="vocabulary">O‘rganishni boshlash <b>→</b></button>
+          </div>
+          <div class="hero-art"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="hero-mark">S<span>.</span></div><div class="hero-caption">LEARN · PRACTICE · GROW</div></div>
+        </section>
+        <section class="welcome-row"><div><div class="section-kicker">BUGUNGI REJA</div><h2>Salom! Bugun nimani o‘rganamiz?</h2></div><div class="date-chip" id="todayDate"></div></section>
+        <section class="stats-grid" id="statsGrid"></section>
+        <section class="section-head"><div><div class="section-kicker">O‘QUV BO‘LIMLARI</div><h2>O‘zingizga mos mashqni tanlang</h2></div><span class="muted">4 ta daraja · 6 ta bo‘lim</span></section>
+        <section class="module-grid">
+          <button class="module-card" data-go="vocabulary"><span class="module-icon gold">Aa</span><span class="module-title">Vocabulary</span><span class="module-desc">Yangi so‘zlar va misollar</span><span class="module-arrow">↗</span></button>
+          <button class="module-card" data-go="grammar"><span class="module-icon purple">✎</span><span class="module-title">Grammar</span><span class="module-desc">Qoidalar va amaliy mashqlar</span><span class="module-arrow">↗</span></button>
+          <button class="module-card" data-go="reading"><span class="module-icon blue">▤</span><span class="module-title">Reading</span><span class="module-desc">Matn o‘qish va tushunish</span><span class="module-arrow">↗</span></button>
+          <button class="module-card" data-go="listening"><span class="module-icon green">♫</span><span class="module-title">Listening</span><span class="module-desc">Tinglash va savollarga javob</span><span class="module-arrow">↗</span></button>
+          <button class="module-card" data-go="tests"><span class="module-icon rose">✓</span><span class="module-title">Mock tests</span><span class="module-desc">Bilimingizni sinab ko‘ring</span><span class="module-arrow">↗</span></button>
+          <button class="module-card" data-go="progress"><span class="module-icon amber">▥</span><span class="module-title">My progress</span><span class="module-desc">Natija va o‘sish ko‘rsatkichlari</span><span class="module-arrow">↗</span></button>
+        </section>
+        <section class="quote-card"><span>“</span><div><b>One word at a time. One day at a time.</b><p>Til o‘rganish — bu musobaqa emas, muntazam yo‘l.</p></div><small>SHABBONA METHOD</small></section>
+      </div>
+      <footer>Made for curious minds <span>✦</span> Shabbona English Academy</footer>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
